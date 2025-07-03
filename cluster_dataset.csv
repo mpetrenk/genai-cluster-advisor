@@ -1,0 +1,301 @@
+workload_id,workload_type,workload_description,cpu_cores,memory_gb,gpu_required,data_size_tb,io_intensive,network_bandwidth_gbps,concurrent_users,latency_requirement_ms,availability_requirement,data_location,storage_type,recommended_cluster_size,recommended_node_count,estimated_cost_per_hour
+workload_001,Feature Engineering,Feature Engineering workload processing 73.22619478695937TB of data with 701 users,10,67,False,73.23,True,23.82,701,2984.65,97.22,us-east-1,NVMe,small,4,2.0
+workload_002,Batch Processing,Nightly ETL jobs processing 60.15138967314656TB of data from multiple sources,14,90,False,60.15,True,21.79,664,3254.79,95.28,us-east-1,EFS,small,3,1.5
+workload_003,Machine Learning Training,Training deep neural networks on 18.42211053435804TB of training data with 460 data scientists,53,449,False,18.42,True,26.36,460,3058.65,95.04,us-east-1,HDD,medium,3,3.6
+workload_004,Batch Processing,Batch analytics workload requiring 20 cores for compute-intensive operations,20,106,False,14.04,True,15.68,476,4868.8,96.16,us-west-2,EFS,small,3,1.5
+workload_005,Stream Processing,Stream Processing workload processing 51.4720203975198TB of data with 832 users,54,221,False,51.47,True,39.98,832,2334.35,99.29,us-west-2,S3,medium,7,8.4
+workload_006,Deep Learning,Deep Learning workload processing 94.2259553929168TB of data with 14 users,88,230,False,94.23,True,11.19,14,4042.18,96.52,us-west-2,S3,medium,7,8.4
+workload_007,ETL Pipeline,ETL Pipeline workload processing 68.35802553066328TB of data with 428 users,5,99,False,68.36,False,6.78,428,2476.39,95.17,us-west-2,HDD,small,3,1.5
+workload_008,ETL Pipeline,ETL Pipeline workload processing 75.56060489073349TB of data with 390 users,20,51,False,75.56,True,5.37,390,1040.5,97.83,us-east-1,S3,small,2,1.0
+workload_009,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,78,465,False,93.96,False,79.76,958,4633.37,98.63,eu-west-1,SSD,large,12,30.0
+workload_010,Data Mining,Data Mining workload processing 96.12108523249998TB of data with 725 users,17,102,False,96.12,False,13.5,725,1944.0,96.35,multi-region,SSD,small,2,1.0
+workload_011,Stream Processing,Stream Processing workload processing 60.7427213438998TB of data with 493 users,31,185,False,60.74,True,97.39,493,705.48,99.0,us-east-1,EFS,large,5,12.5
+workload_012,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,120,966,False,39.55,True,26.94,648,28.61,99.07,multi-region,NVMe,large,5,12.5
+workload_013,Deep Learning,Deep Learning workload processing 60.63540148062304TB of data with 490 users,23,226,True,60.64,True,81.12,490,1792.97,95.58,us-east-1,HDD,large,11,27.5
+workload_014,Data Warehousing,Enterprise data warehouse storing 9.631470637392091TB with 503 concurrent query users,232,967,False,9.63,True,27.98,503,1555.6,96.62,us-west-2,SSD,large,7,17.5
+workload_015,Stream Processing,Stream Processing workload processing 56.16821824218535TB of data with 739 users,51,135,False,56.17,True,45.6,739,598.85,98.56,eu-west-1,S3,medium,3,3.6
+workload_016,Feature Engineering,Feature Engineering workload processing 25.681225443856267TB of data with 795 users,8,105,False,25.68,False,6.66,795,2614.14,97.13,us-west-2,NVMe,small,3,1.5
+workload_017,ETL Pipeline,ETL Pipeline workload processing 89.58678320778459TB of data with 241 users,31,92,False,89.59,True,5.84,241,1572.47,97.54,eu-west-1,SSD,small,3,1.5
+workload_018,Deep Learning,Deep Learning workload processing 54.03012502103715TB of data with 541 users,116,470,True,54.03,True,64.4,541,1144.76,95.38,us-west-2,S3,xlarge,9,45.0
+workload_019,Stream Processing,Stream Processing workload processing 10.638876557044034TB of data with 796 users,49,76,False,10.64,True,47.17,796,4018.56,95.93,eu-west-1,EFS,medium,5,6.0
+workload_020,Batch Processing,Nightly ETL jobs processing 90.69216131042083TB of data from multiple sources,29,107,False,90.69,False,9.55,385,1140.45,97.13,us-west-2,SSD,small,2,1.0
+workload_021,ETL Pipeline,ETL Pipeline workload processing 51.12365552749882TB of data with 649 users,12,18,False,51.12,False,1.17,649,2424.67,98.46,eu-west-1,SSD,small,3,1.5
+workload_022,Batch Processing,Nightly ETL jobs processing 32.38797290887345TB of data from multiple sources,15,39,False,32.39,False,23.63,608,2790.95,97.02,ap-southeast-1,S3,small,3,1.5
+workload_023,Feature Engineering,Feature Engineering workload processing 25.253051352953882TB of data with 386 users,20,73,False,25.25,False,24.1,386,3561.64,95.74,us-west-2,NVMe,small,2,1.0
+workload_024,Real-time Processing,Processing streaming data from 997 concurrent sources with sub-100ms latency requirements,56,33,False,5.24,True,62.7,997,1726.01,98.17,multi-region,EFS,medium,4,4.8
+workload_025,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,84,811,False,55.33,True,27.91,247,3361.01,98.8,multi-region,S3,medium,5,6.0
+workload_026,Deep Learning,Deep Learning workload processing 47.08303338115924TB of data with 610 users,32,318,False,47.08,False,82.28,610,3168.02,97.67,us-west-2,HDD,large,5,12.5
+workload_027,Time Series Analysis,Time Series Analysis workload processing 4.173436641320915TB of data with 660 users,12,74,False,4.17,False,5.48,660,1630.47,96.1,us-east-1,SSD,small,3,1.5
+workload_028,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,82,210,True,9.71,True,41.38,489,3455.0,96.93,ap-southeast-1,EFS,large,6,15.0
+workload_029,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,119,192,False,73.55,False,70.81,946,4623.54,99.38,ap-southeast-1,EFS,large,7,17.5
+workload_030,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,38,891,False,98.22,True,17.0,572,1304.89,99.97,us-east-1,SSD,medium,6,7.2
+workload_031,Feature Engineering,Feature Engineering workload processing 18.9518401233038TB of data with 233 users,8,52,False,18.95,False,22.18,233,1746.7,98.62,eu-west-1,SSD,small,4,2.0
+workload_032,Data Warehousing,OLAP workload requiring high memory (279GB) for complex aggregations,179,279,False,88.79,True,26.18,628,421.62,95.81,us-west-2,S3,large,10,25.0
+workload_033,Data Analytics,Business intelligence workload processing 37.29104837951814TB of transactional data for real-time dashboards,135,979,False,37.29,True,33.23,473,3317.85,95.03,eu-west-1,EFS,large,6,15.0
+workload_034,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,9,85,False,99.45,True,58.63,996,3561.18,96.18,us-east-1,NVMe,medium,7,8.4
+workload_035,Feature Engineering,Feature Engineering workload processing 74.44263525335057TB of data with 195 users,19,35,False,74.44,True,9.8,195,3288.41,97.84,us-west-2,NVMe,small,4,2.0
+workload_036,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,58,245,False,24.47,True,44.89,38,4894.49,97.43,multi-region,SSD,medium,5,6.0
+workload_037,Deep Learning,Deep Learning workload processing 64.54582586685343TB of data with 879 users,42,289,False,64.55,False,41.51,879,2463.1,95.97,us-east-1,SSD,medium,7,8.4
+workload_038,ETL Pipeline,ETL Pipeline workload processing 76.87854602920027TB of data with 512 users,19,34,False,76.88,False,14.73,512,886.38,99.69,us-west-2,SSD,small,2,1.0
+workload_039,Batch Processing,Nightly ETL jobs processing 1.644115991233856TB of data from multiple sources,17,21,False,1.64,True,9.88,280,1654.42,97.76,ap-southeast-1,SSD,small,4,2.0
+workload_040,Time Series Analysis,Time Series Analysis workload processing 29.515444317751612TB of data with 981 users,6,75,False,29.52,True,21.47,981,955.36,96.34,us-west-2,S3,small,4,2.0
+workload_041,Time Series Analysis,Time Series Analysis workload processing 84.43689275855851TB of data with 323 users,21,40,False,84.44,True,10.47,323,2850.74,95.48,eu-west-1,EFS,small,4,2.0
+workload_042,Deep Learning,Deep Learning workload processing 51.881132271137304TB of data with 386 users,101,214,False,51.88,True,22.61,386,1613.43,99.23,multi-region,HDD,medium,3,3.6
+workload_043,Data Mining,Data Mining workload processing 29.72136335041507TB of data with 538 users,14,63,False,29.72,False,14.27,538,4050.76,99.33,ap-southeast-1,NVMe,small,2,1.0
+workload_044,Graph Analytics,Graph Analytics workload processing 79.84968837878084TB of data with 321 users,31,22,False,79.85,False,13.04,321,355.63,96.98,us-east-1,HDD,small,3,1.5
+workload_045,Batch Processing,Large-scale data transformation pipeline running 800 parallel jobs,15,102,False,57.93,True,1.66,800,2891.82,95.18,us-east-1,EFS,small,2,1.0
+workload_046,Time Series Analysis,Time Series Analysis workload processing 83.9094568567294TB of data with 570 users,29,78,False,83.91,True,24.56,570,153.47,95.19,multi-region,HDD,medium,5,6.0
+workload_047,Data Analytics,Running complex analytical queries on 77.02235595455123TB of customer data with 620 concurrent analysts,219,740,False,77.02,True,30.89,620,3114.83,95.43,us-east-1,HDD,large,8,20.0
+workload_048,Machine Learning Training,Training deep neural networks on 13.921473932538357TB of training data with 656 data scientists,109,110,True,13.92,False,72.96,656,4879.28,97.58,multi-region,HDD,xlarge,24,120.0
+workload_049,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,151,958,False,74.43,True,27.34,346,127.73,99.8,ap-southeast-1,HDD,large,11,27.5
+workload_050,Time Series Analysis,Time Series Analysis workload processing 17.412102575077494TB of data with 513 users,12,27,False,17.41,True,10.81,513,2212.32,96.2,multi-region,EFS,small,3,1.5
+workload_051,Graph Analytics,Graph Analytics workload processing 28.065396304899693TB of data with 272 users,19,104,False,28.07,True,16.84,272,2583.96,98.28,ap-southeast-1,S3,small,2,1.0
+workload_052,Batch Processing,Nightly ETL jobs processing 24.848325851165633TB of data from multiple sources,25,108,False,24.85,True,11.07,656,794.07,95.6,ap-southeast-1,NVMe,small,2,1.0
+workload_053,Stream Processing,Stream Processing workload processing 4.168807351665117TB of data with 750 users,21,251,False,4.17,True,28.45,750,4897.57,95.87,ap-southeast-1,S3,medium,4,4.8
+workload_054,Data Mining,Data Mining workload processing 34.69580167683114TB of data with 254 users,29,63,False,34.7,True,20.37,254,2169.82,96.99,us-east-1,SSD,small,3,1.5
+workload_055,Stream Processing,Stream Processing workload processing 26.163272971837227TB of data with 906 users,61,100,False,26.16,True,91.5,906,3129.67,97.51,eu-west-1,SSD,large,5,12.5
+workload_056,Batch Processing,Nightly ETL jobs processing 61.623531322552395TB of data from multiple sources,27,84,False,61.62,True,17.42,336,3212.45,95.13,multi-region,S3,small,4,2.0
+workload_057,Real-time Processing,Real-time fraud detection system handling 57.37936746302614TB of transaction data daily,27,183,False,57.38,True,75.79,545,2291.81,97.72,us-west-2,NVMe,medium,7,8.4
+workload_058,Graph Analytics,Graph Analytics workload processing 65.18332870859302TB of data with 43 users,15,82,False,65.18,True,20.69,43,979.76,95.35,us-east-1,S3,small,4,2.0
+workload_059,Time Series Analysis,Time Series Analysis workload processing 61.8635630453555TB of data with 727 users,17,17,False,61.86,True,1.94,727,356.87,96.59,us-east-1,EFS,small,3,1.5
+workload_060,Data Analytics,Running complex analytical queries on 26.143383370766724TB of customer data with 903 concurrent analysts,233,729,False,26.14,True,23.62,903,591.71,98.48,us-west-2,HDD,large,12,30.0
+workload_061,Stream Processing,Stream Processing workload processing 28.275253799873518TB of data with 394 users,43,248,False,28.28,True,85.26,394,2117.93,97.84,ap-southeast-1,S3,large,7,17.5
+workload_062,Batch Processing,Nightly ETL jobs processing 37.26460677069904TB of data from multiple sources,20,114,False,37.26,False,10.9,999,2903.14,99.33,us-west-2,S3,small,2,1.0
+workload_063,Data Analytics,Performing statistical analysis and reporting on large datasets requiring 43 cores and 496GB RAM,43,496,False,74.02,True,37.19,867,516.52,99.5,eu-west-1,S3,medium,6,7.2
+workload_064,Data Warehousing,OLAP workload requiring high memory (856GB) for complex aggregations,143,856,False,89.56,True,22.8,177,268.37,99.78,multi-region,S3,large,7,17.5
+workload_065,Real-time Processing,Processing streaming data from 384 concurrent sources with sub-100ms latency requirements,19,40,False,95.01,True,48.95,384,2413.12,97.46,eu-west-1,HDD,medium,7,8.4
+workload_066,Data Analytics,Business intelligence workload processing 55.4149349293455TB of transactional data for real-time dashboards,100,226,False,55.41,True,34.1,469,3762.12,98.95,multi-region,SSD,medium,3,3.6
+workload_067,Data Mining,Data Mining workload processing 97.42739603258758TB of data with 398 users,10,124,False,97.43,False,23.34,398,2748.09,97.2,us-east-1,SSD,small,4,2.0
+workload_068,Deep Learning,Deep Learning workload processing 96.86832920301609TB of data with 9 users,108,298,False,96.87,True,73.52,9,3807.79,98.08,us-east-1,EFS,large,10,25.0
+workload_069,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,22,237,True,7.37,True,73.09,946,4459.59,95.73,us-east-1,HDD,large,9,22.5
+workload_070,Stream Processing,Stream Processing workload processing 86.32753834670149TB of data with 342 users,45,114,False,86.33,True,68.6,342,4064.19,99.73,us-east-1,EFS,medium,3,3.6
+workload_071,Batch Processing,Batch analytics workload requiring 16 cores for compute-intensive operations,16,19,False,70.85,True,9.41,787,3885.96,97.79,us-east-1,S3,small,4,2.0
+workload_072,Feature Engineering,Feature Engineering workload processing 43.50173926437831TB of data with 173 users,13,105,False,43.5,False,8.93,173,57.76,97.34,eu-west-1,HDD,small,3,1.5
+workload_073,Feature Engineering,Feature Engineering workload processing 82.29675615248165TB of data with 935 users,23,107,False,82.3,False,19.41,935,3730.48,97.91,us-west-2,NVMe,small,3,1.5
+workload_074,Stream Processing,Stream Processing workload processing 22.43722426809332TB of data with 134 users,56,184,False,22.44,True,90.14,134,4010.74,99.88,us-west-2,NVMe,large,9,22.5
+workload_075,Graph Analytics,Graph Analytics workload processing 7.472276817066347TB of data with 227 users,19,100,False,7.47,False,24.83,227,3477.36,95.38,us-east-1,SSD,small,4,2.0
+workload_076,Graph Analytics,Graph Analytics workload processing 45.508652370300545TB of data with 373 users,12,64,False,45.51,True,17.7,373,3484.93,96.92,us-east-1,EFS,small,4,2.0
+workload_077,Batch Processing,Nightly ETL jobs processing 95.04610725924822TB of data from multiple sources,28,90,False,95.05,False,7.74,968,1973.21,95.53,eu-west-1,SSD,small,2,1.0
+workload_078,Batch Processing,Large-scale data transformation pipeline running 316 parallel jobs,11,107,False,38.89,False,16.52,316,2918.7,95.39,us-west-2,S3,small,2,1.0
+workload_079,Time Series Analysis,Time Series Analysis workload processing 3.3283635158540816TB of data with 201 users,7,79,False,3.33,False,11.88,201,1548.33,99.06,multi-region,EFS,small,2,1.0
+workload_080,Data Analytics,Business intelligence workload processing 94.0591295308248TB of transactional data for real-time dashboards,172,685,False,94.06,True,13.05,883,3628.87,98.06,multi-region,NVMe,large,6,15.0
+workload_081,Feature Engineering,Feature Engineering workload processing 55.2036284671526TB of data with 5 users,13,71,False,55.2,True,22.04,5,132.81,96.88,us-west-2,NVMe,small,2,1.0
+workload_082,Machine Learning Training,"Distributed ML model training requiring 33 cores, 287GB RAM and GPU acceleration",33,287,True,37.74,True,98.68,282,1905.07,99.84,eu-west-1,EFS,xlarge,24,120.0
+workload_083,Batch Processing,Nightly ETL jobs processing 41.54046828353275TB of data from multiple sources,16,48,False,41.54,False,12.25,385,69.35,95.38,eu-west-1,EFS,small,2,1.0
+workload_084,Graph Analytics,Graph Analytics workload processing 91.32525865053853TB of data with 23 users,8,110,False,91.33,False,19.0,23,3845.17,99.71,us-east-1,SSD,small,3,1.5
+workload_085,Feature Engineering,Feature Engineering workload processing 20.584028317801838TB of data with 1 users,22,32,False,20.58,False,6.79,1,4770.3,98.02,eu-west-1,SSD,small,3,1.5
+workload_086,Data Analytics,Performing statistical analysis and reporting on large datasets requiring 224 cores and 1008GB RAM,224,1008,False,4.78,True,40.28,95,568.67,98.35,us-west-2,NVMe,large,6,15.0
+workload_087,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,61,149,False,30.85,True,87.35,961,2759.98,97.8,ap-southeast-1,EFS,large,13,32.5
+workload_088,Data Mining,Data Mining workload processing 42.111524288641TB of data with 229 users,20,127,False,42.11,False,12.52,229,3101.93,98.51,multi-region,SSD,small,4,2.0
+workload_089,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,118,485,True,98.05,True,65.55,306,2950.0,96.96,us-east-1,NVMe,xlarge,9,45.0
+workload_090,Deep Learning,Deep Learning workload processing 78.38693597284019TB of data with 542 users,67,312,True,78.39,False,56.26,542,3110.81,99.3,us-west-2,SSD,large,9,22.5
+workload_091,Data Warehousing,OLAP workload requiring high memory (265GB) for complex aggregations,60,265,False,49.26,True,47.06,508,332.11,95.23,us-east-1,NVMe,medium,7,8.4
+workload_092,Batch Processing,Batch analytics workload requiring 5 cores for compute-intensive operations,5,92,False,58.01,True,6.02,971,380.24,95.64,us-east-1,NVMe,small,4,2.0
+workload_093,Time Series Analysis,Time Series Analysis workload processing 69.79699061232348TB of data with 900 users,19,110,False,69.8,False,10.61,900,910.22,96.72,multi-region,HDD,small,4,2.0
+workload_094,Batch Processing,Nightly ETL jobs processing 17.314755133042823TB of data from multiple sources,6,42,False,17.31,True,17.02,634,1120.02,99.1,ap-southeast-1,SSD,small,3,1.5
+workload_095,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,35,201,False,8.96,True,38.28,513,2672.58,96.78,eu-west-1,S3,medium,4,4.8
+workload_096,Feature Engineering,Feature Engineering workload processing 32.2261181915349TB of data with 794 users,20,93,False,32.23,True,8.92,794,3997.25,98.13,eu-west-1,HDD,small,4,2.0
+workload_097,Data Mining,Data Mining workload processing 37.79086792768305TB of data with 337 users,27,109,False,37.79,True,4.77,337,1385.11,99.02,ap-southeast-1,SSD,small,2,1.0
+workload_098,Graph Analytics,Graph Analytics workload processing 37.11016306885906TB of data with 726 users,6,67,False,37.11,True,6.02,726,1181.35,98.79,us-west-2,S3,small,3,1.5
+workload_099,ETL Pipeline,ETL Pipeline workload processing 3.7646519687707305TB of data with 312 users,27,17,False,3.76,False,18.94,312,666.45,98.43,us-west-2,HDD,small,4,2.0
+workload_100,Data Analytics,Business intelligence workload processing 86.73477660936486TB of transactional data for real-time dashboards,138,878,False,86.73,True,11.22,806,2663.55,96.21,us-west-2,S3,medium,3,3.6
+workload_101,ETL Pipeline,ETL Pipeline workload processing 56.44011269268176TB of data with 273 users,26,116,False,56.44,False,5.37,273,1058.03,96.63,us-east-1,NVMe,small,2,1.0
+workload_102,ETL Pipeline,ETL Pipeline workload processing 67.94232168253451TB of data with 67 users,20,28,False,67.94,False,15.25,67,3244.47,97.39,multi-region,NVMe,small,4,2.0
+workload_103,Data Analytics,Running complex analytical queries on 58.69488992260983TB of customer data with 748 concurrent analysts,245,161,False,58.69,True,32.31,748,638.77,96.42,eu-west-1,HDD,large,10,25.0
+workload_104,Deep Learning,Deep Learning workload processing 24.51088023091899TB of data with 315 users,67,345,False,24.51,True,64.68,315,4932.59,98.02,us-east-1,EFS,large,5,12.5
+workload_105,Stream Processing,Stream Processing workload processing 36.59914628543836TB of data with 624 users,60,181,False,36.6,True,41.9,624,804.25,95.93,eu-west-1,NVMe,medium,3,3.6
+workload_106,Stream Processing,Stream Processing workload processing 41.09864301626719TB of data with 548 users,62,162,False,41.1,True,64.34,548,4986.28,99.47,multi-region,EFS,large,8,20.0
+workload_107,Machine Learning Training,"Distributed ML model training requiring 107 cores, 138GB RAM",107,138,False,81.73,True,87.9,881,2454.25,98.61,us-east-1,S3,large,13,32.5
+workload_108,Data Analytics,Business intelligence workload processing 47.71428646422856TB of transactional data for real-time dashboards,225,974,False,47.71,True,31.4,173,3847.7,95.93,multi-region,HDD,large,10,25.0
+workload_109,ETL Pipeline,ETL Pipeline workload processing 73.65109365147897TB of data with 140 users,7,34,False,73.65,False,5.79,140,575.07,98.05,us-east-1,NVMe,small,3,1.5
+workload_110,Deep Learning,Deep Learning workload processing 48.16589617529627TB of data with 259 users,52,445,False,48.17,True,23.89,259,260.07,96.68,eu-west-1,EFS,medium,4,4.8
+workload_111,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,36,777,False,32.3,True,49.6,642,440.25,95.69,ap-southeast-1,NVMe,medium,3,3.6
+workload_112,Stream Processing,Stream Processing workload processing 47.210461236160825TB of data with 419 users,24,40,False,47.21,True,69.67,419,1744.99,99.64,eu-west-1,EFS,medium,6,7.2
+workload_113,Real-time Processing,Processing streaming data from 137 concurrent sources with sub-100ms latency requirements,51,209,False,73.11,True,34.32,137,1025.8,96.89,ap-southeast-1,S3,medium,3,3.6
+workload_114,Feature Engineering,Feature Engineering workload processing 84.19869479815138TB of data with 840 users,11,79,False,84.2,True,14.79,840,4139.88,98.75,multi-region,EFS,small,3,1.5
+workload_115,Data Warehousing,OLAP workload requiring high memory (852GB) for complex aggregations,66,852,False,23.65,True,17.46,78,2615.8,96.79,multi-region,SSD,medium,7,8.4
+workload_116,Data Warehousing,OLAP workload requiring high memory (216GB) for complex aggregations,73,216,False,45.25,True,37.32,616,1885.35,97.31,us-west-2,S3,medium,3,3.6
+workload_117,Deep Learning,Deep Learning workload processing 23.29804824516705TB of data with 225 users,38,126,False,23.3,False,55.24,225,1958.02,97.65,ap-southeast-1,S3,medium,7,8.4
+workload_118,Feature Engineering,Feature Engineering workload processing 11.778114266765572TB of data with 646 users,11,119,False,11.78,True,15.98,646,1664.75,98.65,multi-region,S3,small,3,1.5
+workload_119,Data Mining,Data Mining workload processing 49.59282027775617TB of data with 478 users,23,30,False,49.59,True,22.09,478,4469.57,98.94,us-east-1,NVMe,small,3,1.5
+workload_120,Time Series Analysis,Time Series Analysis workload processing 77.87933671117004TB of data with 289 users,28,112,False,77.88,False,17.97,289,168.63,97.84,us-east-1,HDD,small,3,1.5
+workload_121,Feature Engineering,Feature Engineering workload processing 82.14360473673409TB of data with 159 users,8,89,False,82.14,False,9.21,159,1894.73,97.28,us-west-2,HDD,small,4,2.0
+workload_122,Real-time Processing,Processing streaming data from 844 concurrent sources with sub-100ms latency requirements,36,167,False,23.0,True,36.24,844,3859.64,95.06,us-east-1,HDD,medium,5,6.0
+workload_123,Graph Analytics,Graph Analytics workload processing 25.254725984804583TB of data with 69 users,22,51,False,25.25,True,14.03,69,4134.17,99.79,ap-southeast-1,S3,small,3,1.5
+workload_124,Feature Engineering,Feature Engineering workload processing 28.86416868592504TB of data with 363 users,9,87,False,28.86,True,11.17,363,767.6,97.93,ap-southeast-1,S3,small,3,1.5
+workload_125,Stream Processing,Stream Processing workload processing 72.63694904763383TB of data with 683 users,25,248,False,72.64,True,44.2,683,4660.66,97.82,us-west-2,HDD,medium,6,7.2
+workload_126,Feature Engineering,Feature Engineering workload processing 15.33865038713471TB of data with 604 users,8,52,False,15.34,True,17.97,604,1872.8,95.34,us-east-1,S3,small,4,2.0
+workload_127,Batch Processing,Batch analytics workload requiring 17 cores for compute-intensive operations,17,55,False,91.08,True,21.17,769,567.08,99.91,multi-region,S3,small,3,1.5
+workload_128,Data Analytics,Business intelligence workload processing 33.2814266242284TB of transactional data for real-time dashboards,195,309,False,33.28,True,43.5,950,2594.67,97.95,us-west-2,SSD,large,9,22.5
+workload_129,Graph Analytics,Graph Analytics workload processing 20.637422856726186TB of data with 313 users,18,88,False,20.64,True,18.86,313,24.16,96.66,ap-southeast-1,EFS,small,4,2.0
+workload_130,Time Series Analysis,Time Series Analysis workload processing 92.30372715666864TB of data with 903 users,23,40,False,92.3,False,21.72,903,1735.42,98.68,ap-southeast-1,EFS,small,2,1.0
+workload_131,Data Mining,Data Mining workload processing 14.171616335942007TB of data with 664 users,14,74,False,14.17,False,11.86,664,2888.58,95.83,multi-region,S3,small,2,1.0
+workload_132,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,31,192,False,58.1,True,52.18,662,1101.27,96.06,ap-southeast-1,S3,medium,3,3.6
+workload_133,Data Warehousing,Enterprise data warehouse storing 14.951406502535985TB with 630 concurrent query users,230,976,False,14.95,True,48.44,630,4303.3,97.67,eu-west-1,EFS,large,12,30.0
+workload_134,Graph Analytics,Graph Analytics workload processing 6.8009400911039055TB of data with 215 users,20,86,False,6.8,True,15.29,215,2134.52,98.99,eu-west-1,S3,small,3,1.5
+workload_135,Machine Learning Training,"Distributed ML model training requiring 47 cores, 221GB RAM",47,221,False,3.75,True,27.16,286,4182.99,97.93,eu-west-1,NVMe,medium,3,3.6
+workload_136,Time Series Analysis,Time Series Analysis workload processing 53.49214353659897TB of data with 113 users,17,62,False,53.49,True,13.66,113,2004.41,97.79,us-west-2,HDD,small,4,2.0
+workload_137,Batch Processing,Batch analytics workload requiring 7 cores for compute-intensive operations,7,16,False,7.64,False,9.02,643,1867.17,96.35,us-west-2,HDD,small,3,1.5
+workload_138,Machine Learning Training,"Distributed ML model training requiring 49 cores, 443GB RAM",49,443,False,97.9,False,82.07,800,3580.15,98.29,multi-region,S3,large,5,12.5
+workload_139,Stream Processing,Stream Processing workload processing 67.22208508551297TB of data with 328 users,62,98,False,67.22,True,42.33,328,521.44,98.99,us-east-1,HDD,medium,5,6.0
+workload_140,Stream Processing,Stream Processing workload processing 72.10922832141961TB of data with 803 users,58,128,False,72.11,True,66.75,803,1216.62,98.6,ap-southeast-1,EFS,large,12,30.0
+workload_141,Data Mining,Data Mining workload processing 94.44653158516962TB of data with 182 users,17,122,False,94.45,True,24.1,182,1025.72,96.46,multi-region,S3,small,3,1.5
+workload_142,Graph Analytics,Graph Analytics workload processing 20.86783688908813TB of data with 147 users,10,89,False,20.87,True,3.05,147,614.76,99.37,eu-west-1,NVMe,small,2,1.0
+workload_143,Stream Processing,Stream Processing workload processing 62.513650977220784TB of data with 523 users,25,33,False,62.51,True,93.3,523,1297.86,96.89,ap-southeast-1,EFS,large,11,27.5
+workload_144,Data Mining,Data Mining workload processing 34.58469527363943TB of data with 256 users,26,27,False,34.58,True,20.94,256,2760.68,97.18,ap-southeast-1,HDD,small,4,2.0
+workload_145,Data Warehousing,OLAP workload requiring high memory (491GB) for complex aggregations,117,491,False,86.86,True,15.6,632,4926.85,97.35,ap-southeast-1,SSD,medium,3,3.6
+workload_146,Stream Processing,Stream Processing workload processing 74.1945257284437TB of data with 962 users,57,146,False,74.19,True,63.43,962,3167.76,96.29,eu-west-1,S3,medium,5,6.0
+workload_147,Data Mining,Data Mining workload processing 90.06717289351494TB of data with 610 users,17,19,False,90.07,True,4.17,610,1362.26,95.09,ap-southeast-1,HDD,small,3,1.5
+workload_148,Deep Learning,Deep Learning workload processing 27.478116546651883TB of data with 17 users,100,105,True,27.48,False,61.89,17,2026.84,97.48,multi-region,EFS,xlarge,19,95.0
+workload_149,Feature Engineering,Feature Engineering workload processing 26.442011883198184TB of data with 287 users,26,121,False,26.44,True,4.36,287,4369.58,97.98,us-east-1,S3,small,2,1.0
+workload_150,Real-time Processing,Real-time fraud detection system handling 83.82688562151175TB of transaction data daily,60,230,False,83.83,True,68.0,981,1916.31,97.59,us-west-2,SSD,large,6,15.0
+workload_151,Data Warehousing,OLAP workload requiring high memory (490GB) for complex aggregations,85,490,False,9.12,True,17.37,371,1227.5,96.94,eu-west-1,HDD,medium,5,6.0
+workload_152,Graph Analytics,Graph Analytics workload processing 56.683823565660035TB of data with 98 users,7,74,False,56.68,False,8.13,98,1983.85,99.76,eu-west-1,S3,small,3,1.5
+workload_153,Data Warehousing,OLAP workload requiring high memory (439GB) for complex aggregations,100,439,False,3.22,True,18.6,148,810.91,99.2,eu-west-1,SSD,medium,3,3.6
+workload_154,Graph Analytics,Graph Analytics workload processing 62.37092183540858TB of data with 450 users,30,124,False,62.37,True,4.71,450,533.88,95.37,multi-region,SSD,small,2,1.0
+workload_155,ETL Pipeline,ETL Pipeline workload processing 59.86877722098865TB of data with 25 users,4,104,False,59.87,True,17.92,25,1232.76,99.09,us-east-1,SSD,small,2,1.0
+workload_156,Data Analytics,Running complex analytical queries on 0.6248564739826531TB of customer data with 524 concurrent analysts,139,299,False,0.62,True,48.71,524,1805.51,95.46,us-west-2,SSD,large,5,12.5
+workload_157,Deep Learning,Deep Learning workload processing 44.65597671849978TB of data with 815 users,76,80,True,44.66,True,95.52,815,434.44,99.78,us-west-2,S3,xlarge,15,75.0
+workload_158,Feature Engineering,Feature Engineering workload processing 69.25842879533347TB of data with 710 users,24,96,False,69.26,True,16.81,710,4902.9,99.51,multi-region,HDD,small,4,2.0
+workload_159,Graph Analytics,Graph Analytics workload processing 67.02475470854893TB of data with 288 users,30,41,False,67.02,False,2.24,288,3528.17,99.62,eu-west-1,HDD,small,4,2.0
+workload_160,Deep Learning,Deep Learning workload processing 3.4912032607213046TB of data with 629 users,41,149,True,3.49,True,92.39,629,3655.39,95.96,eu-west-1,SSD,xlarge,15,75.0
+workload_161,Deep Learning,Deep Learning workload processing 74.53194835721003TB of data with 372 users,74,278,True,74.53,False,81.58,372,4222.9,96.59,multi-region,S3,xlarge,17,85.0
+workload_162,Stream Processing,Stream Processing workload processing 36.53325522078486TB of data with 620 users,46,48,False,36.53,True,73.76,620,603.71,95.38,us-west-2,SSD,large,9,22.5
+workload_163,Deep Learning,Deep Learning workload processing 40.50809642321689TB of data with 39 users,58,487,True,40.51,True,49.69,39,1577.14,97.69,eu-west-1,EFS,large,10,25.0
+workload_164,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,40,460,True,88.61,False,66.33,426,4383.45,97.08,ap-southeast-1,NVMe,large,7,17.5
+workload_165,Machine Learning Training,"Distributed ML model training requiring 57 cores, 97GB RAM",57,97,False,87.48,True,11.91,141,1920.44,99.65,ap-southeast-1,SSD,medium,5,6.0
+workload_166,Stream Processing,Stream Processing workload processing 76.74211006421959TB of data with 477 users,46,77,False,76.74,True,51.3,477,188.95,97.39,eu-west-1,S3,medium,6,7.2
+workload_167,Data Mining,Data Mining workload processing 33.703409336459366TB of data with 340 users,18,25,False,33.7,True,3.2,340,3688.17,96.19,ap-southeast-1,HDD,small,4,2.0
+workload_168,Data Mining,Data Mining workload processing 85.29689998702095TB of data with 146 users,16,29,False,85.3,False,8.13,146,1168.81,95.21,multi-region,EFS,small,2,1.0
+workload_169,Graph Analytics,Graph Analytics workload processing 11.035813108043603TB of data with 889 users,24,125,False,11.04,False,2.08,889,3398.56,96.09,ap-southeast-1,EFS,small,3,1.5
+workload_170,Data Warehousing,OLAP workload requiring high memory (188GB) for complex aggregations,68,188,False,58.9,True,20.36,807,4395.71,99.71,us-west-2,SSD,medium,5,6.0
+workload_171,Data Warehousing,OLAP workload requiring high memory (972GB) for complex aggregations,93,972,False,74.36,True,49.57,772,1159.13,99.7,us-west-2,S3,large,10,25.0
+workload_172,Deep Learning,Deep Learning workload processing 17.735150397350278TB of data with 218 users,124,429,False,17.74,False,30.76,218,184.62,99.78,us-east-1,S3,large,12,30.0
+workload_173,ETL Pipeline,ETL Pipeline workload processing 96.91335275106705TB of data with 689 users,9,20,False,96.91,True,2.39,689,2591.78,97.98,ap-southeast-1,HDD,small,2,1.0
+workload_174,ETL Pipeline,ETL Pipeline workload processing 49.1695154527758TB of data with 145 users,30,121,False,49.17,False,13.37,145,770.33,99.07,eu-west-1,NVMe,small,3,1.5
+workload_175,Deep Learning,Deep Learning workload processing 3.5830295073591087TB of data with 580 users,28,183,False,3.58,True,77.31,580,2900.85,95.46,multi-region,HDD,medium,3,3.6
+workload_176,Machine Learning Training,"Distributed ML model training requiring 71 cores, 386GB RAM and GPU acceleration",71,386,True,47.72,False,34.57,195,4778.3,99.3,multi-region,HDD,large,13,32.5
+workload_177,Data Mining,Data Mining workload processing 73.54774418689293TB of data with 226 users,18,55,False,73.55,False,23.36,226,2042.86,96.86,ap-southeast-1,S3,small,4,2.0
+workload_178,Data Analytics,Running complex analytical queries on 8.196516969174029TB of customer data with 316 concurrent analysts,164,303,False,8.2,True,29.84,316,548.23,99.46,eu-west-1,HDD,large,5,12.5
+workload_179,Stream Processing,Stream Processing workload processing 51.65629414231731TB of data with 115 users,57,71,False,51.66,True,91.22,115,4123.58,96.74,us-west-2,NVMe,large,6,15.0
+workload_180,Feature Engineering,Feature Engineering workload processing 73.4176009034748TB of data with 216 users,11,106,False,73.42,False,21.75,216,3987.33,98.29,ap-southeast-1,EFS,small,2,1.0
+workload_181,Time Series Analysis,Time Series Analysis workload processing 33.46748698664926TB of data with 557 users,30,74,False,33.47,False,4.85,557,3487.66,98.39,ap-southeast-1,EFS,small,4,2.0
+workload_182,ETL Pipeline,ETL Pipeline workload processing 88.17554956375798TB of data with 557 users,30,53,False,88.18,False,5.54,557,4359.35,95.15,ap-southeast-1,NVMe,small,4,2.0
+workload_183,Data Warehousing,OLAP workload requiring high memory (521GB) for complex aggregations,201,521,False,22.94,True,42.8,551,804.64,99.08,us-west-2,SSD,large,11,27.5
+workload_184,Data Mining,Data Mining workload processing 32.71071429267897TB of data with 233 users,5,111,False,32.71,True,3.02,233,3159.44,96.3,eu-west-1,SSD,small,2,1.0
+workload_185,Data Mining,Data Mining workload processing 76.1266874599526TB of data with 586 users,6,127,False,76.13,True,3.57,586,2161.77,99.19,us-west-2,HDD,small,4,2.0
+workload_186,Data Mining,Data Mining workload processing 17.457972183225923TB of data with 484 users,8,108,False,17.46,False,19.93,484,340.12,96.5,eu-west-1,EFS,small,2,1.0
+workload_187,Time Series Analysis,Time Series Analysis workload processing 47.410031454665344TB of data with 22 users,15,37,False,47.41,False,18.01,22,3104.96,95.23,us-east-1,HDD,small,3,1.5
+workload_188,Data Warehousing,Enterprise data warehouse storing 44.651234870331116TB with 763 concurrent query users,45,831,False,44.65,True,37.04,763,651.3,98.78,eu-west-1,HDD,medium,7,8.4
+workload_189,Data Warehousing,Enterprise data warehouse storing 48.91545472142611TB with 947 concurrent query users,170,160,False,48.92,True,22.94,947,1263.29,95.01,multi-region,HDD,large,6,15.0
+workload_190,Data Warehousing,Enterprise data warehouse storing 42.6755120933737TB with 397 concurrent query users,205,865,False,42.68,True,49.88,397,4271.19,97.63,us-east-1,EFS,large,8,20.0
+workload_191,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,63,257,False,23.08,True,40.91,459,1367.02,99.74,us-west-2,S3,medium,6,7.2
+workload_192,Machine Learning Training,"Distributed ML model training requiring 71 cores, 155GB RAM and GPU acceleration",71,155,True,90.96,False,75.81,869,3192.99,96.98,ap-southeast-1,S3,xlarge,12,60.0
+workload_193,ETL Pipeline,ETL Pipeline workload processing 72.46982499415029TB of data with 162 users,6,16,False,72.47,True,8.7,162,1066.31,95.16,us-east-1,NVMe,small,2,1.0
+workload_194,Graph Analytics,Graph Analytics workload processing 47.20609276424102TB of data with 539 users,27,27,False,47.21,True,14.51,539,4841.0,95.93,us-east-1,S3,small,2,1.0
+workload_195,Graph Analytics,Graph Analytics workload processing 84.49384448887709TB of data with 199 users,24,23,False,84.49,True,19.5,199,3131.48,95.65,multi-region,SSD,small,2,1.0
+workload_196,Real-time Processing,Processing streaming data from 527 concurrent sources with sub-100ms latency requirements,31,91,False,18.63,True,97.56,527,2408.13,95.59,multi-region,NVMe,large,5,12.5
+workload_197,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,123,403,True,20.13,True,48.73,956,321.98,97.9,ap-southeast-1,EFS,xlarge,9,45.0
+workload_198,Deep Learning,Deep Learning workload processing 45.57649289327194TB of data with 72 users,103,135,True,45.58,False,37.93,72,2323.53,98.4,ap-southeast-1,S3,xlarge,21,105.0
+workload_199,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,126,293,False,69.53,True,21.67,801,4763.29,99.53,ap-southeast-1,NVMe,medium,5,6.0
+workload_200,Deep Learning,Deep Learning workload processing 24.280297084666497TB of data with 889 users,101,242,True,24.28,True,19.44,889,2854.95,95.09,us-west-2,HDD,large,10,25.0
+workload_201,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,117,219,False,56.01,True,38.1,928,4706.25,95.36,us-east-1,HDD,large,5,12.5
+workload_202,Batch Processing,Batch analytics workload requiring 4 cores for compute-intensive operations,4,120,False,3.42,True,9.42,116,1789.65,96.61,us-east-1,HDD,small,3,1.5
+workload_203,Data Analytics,Performing statistical analysis and reporting on large datasets requiring 134 cores and 217GB RAM,134,217,False,80.08,True,37.58,994,206.88,98.35,ap-southeast-1,EFS,large,12,30.0
+workload_204,Graph Analytics,Graph Analytics workload processing 3.25545586808164TB of data with 774 users,14,76,False,3.26,False,17.96,774,3083.41,98.06,us-east-1,HDD,small,2,1.0
+workload_205,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,145,843,False,71.44,True,44.84,318,3917.33,98.06,eu-west-1,S3,large,11,27.5
+workload_206,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,90,147,True,59.79,False,59.77,22,2262.14,98.21,multi-region,HDD,xlarge,16,80.0
+workload_207,Stream Processing,Stream Processing workload processing 6.1291731906573235TB of data with 87 users,49,45,False,6.13,True,31.12,87,3251.82,97.39,us-east-1,EFS,medium,5,6.0
+workload_208,Batch Processing,Large-scale data transformation pipeline running 904 parallel jobs,29,34,False,33.76,True,24.42,904,4359.29,97.16,us-west-2,SSD,medium,5,6.0
+workload_209,Data Analytics,Running complex analytical queries on 65.36097562180927TB of customer data with 549 concurrent analysts,75,721,False,65.36,True,10.83,549,4981.67,99.86,eu-west-1,EFS,medium,5,6.0
+workload_210,Data Mining,Data Mining workload processing 22.134056379740095TB of data with 950 users,31,89,False,22.13,False,10.68,950,154.23,96.29,ap-southeast-1,SSD,small,2,1.0
+workload_211,Graph Analytics,Graph Analytics workload processing 84.63990467270303TB of data with 805 users,24,46,False,84.64,False,10.98,805,1730.33,96.85,ap-southeast-1,NVMe,small,3,1.5
+workload_212,Time Series Analysis,Time Series Analysis workload processing 43.91768037704009TB of data with 117 users,20,66,False,43.92,False,14.89,117,1978.18,98.02,ap-southeast-1,SSD,small,4,2.0
+workload_213,Deep Learning,Deep Learning workload processing 27.755096943781655TB of data with 371 users,49,483,True,27.76,False,47.95,371,1419.99,96.79,eu-west-1,EFS,large,7,17.5
+workload_214,Data Warehousing,Enterprise data warehouse storing 23.655630186525066TB with 794 concurrent query users,49,679,False,23.66,True,43.44,794,3579.41,99.54,us-east-1,HDD,medium,4,4.8
+workload_215,Feature Engineering,Feature Engineering workload processing 18.179597575678027TB of data with 837 users,15,29,False,18.18,True,24.31,837,346.59,97.18,eu-west-1,EFS,small,3,1.5
+workload_216,Data Analytics,Running complex analytical queries on 51.530253657576054TB of customer data with 985 concurrent analysts,91,508,False,51.53,True,27.81,985,3313.44,95.48,ap-southeast-1,EFS,medium,3,3.6
+workload_217,Feature Engineering,Feature Engineering workload processing 25.887529926842642TB of data with 229 users,30,104,False,25.89,False,24.27,229,46.14,97.94,eu-west-1,HDD,medium,6,7.2
+workload_218,Deep Learning,Deep Learning workload processing 45.43357518422556TB of data with 395 users,71,227,False,45.43,False,97.28,395,4418.66,97.21,us-east-1,S3,large,14,35.0
+workload_219,ETL Pipeline,ETL Pipeline workload processing 43.14566361381441TB of data with 276 users,13,91,False,43.15,False,20.89,276,2939.83,99.73,eu-west-1,NVMe,small,2,1.0
+workload_220,Feature Engineering,Feature Engineering workload processing 60.5932619487238TB of data with 687 users,25,99,False,60.59,True,10.1,687,3319.36,97.37,us-west-2,NVMe,small,2,1.0
+workload_221,Stream Processing,Stream Processing workload processing 86.43519614964949TB of data with 902 users,63,75,False,86.44,True,58.48,902,1030.0,95.56,ap-southeast-1,NVMe,medium,4,4.8
+workload_222,Feature Engineering,Feature Engineering workload processing 23.1899781515219TB of data with 282 users,17,17,False,23.19,False,3.95,282,197.68,95.61,multi-region,SSD,small,3,1.5
+workload_223,Graph Analytics,Graph Analytics workload processing 50.77275738797041TB of data with 206 users,8,74,False,50.77,True,8.59,206,3441.35,96.98,eu-west-1,NVMe,small,3,1.5
+workload_224,ETL Pipeline,ETL Pipeline workload processing 32.38075264132083TB of data with 797 users,27,58,False,32.38,True,1.42,797,4339.72,97.27,ap-southeast-1,EFS,small,4,2.0
+workload_225,Data Analytics,Business intelligence workload processing 53.27127438374728TB of transactional data for real-time dashboards,202,305,False,53.27,True,23.71,151,150.84,96.54,multi-region,S3,large,6,15.0
+workload_226,Stream Processing,Stream Processing workload processing 96.99421340611632TB of data with 129 users,49,155,False,96.99,True,75.51,129,3654.42,95.78,us-east-1,HDD,large,10,25.0
+workload_227,Time Series Analysis,Time Series Analysis workload processing 69.29333262739384TB of data with 311 users,8,126,False,69.29,False,5.25,311,4893.18,96.87,multi-region,S3,small,3,1.5
+workload_228,Feature Engineering,Feature Engineering workload processing 86.90360794942396TB of data with 744 users,21,97,False,86.9,False,15.83,744,3842.83,95.56,us-east-1,HDD,small,2,1.0
+workload_229,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,77,928,False,94.09,True,34.02,654,1969.93,98.25,us-west-2,NVMe,medium,4,4.8
+workload_230,Graph Analytics,Graph Analytics workload processing 4.916382682169547TB of data with 585 users,31,81,False,4.92,False,24.99,585,4332.33,99.96,us-east-1,SSD,medium,7,8.4
+workload_231,Feature Engineering,Feature Engineering workload processing 11.000052213398398TB of data with 610 users,12,92,False,11.0,True,7.93,610,2021.3,96.63,us-west-2,NVMe,small,3,1.5
+workload_232,Time Series Analysis,Time Series Analysis workload processing 87.80132678822862TB of data with 279 users,22,85,False,87.8,True,22.63,279,2178.48,99.08,multi-region,S3,small,3,1.5
+workload_233,Machine Learning Training,"Distributed ML model training requiring 69 cores, 152GB RAM and GPU acceleration",69,152,True,63.06,True,39.55,711,2817.63,96.9,us-east-1,HDD,large,13,32.5
+workload_234,Graph Analytics,Graph Analytics workload processing 44.49750332984504TB of data with 102 users,4,64,False,44.5,False,14.1,102,366.91,98.01,multi-region,NVMe,small,3,1.5
+workload_235,Stream Processing,Stream Processing workload processing 50.09448638216108TB of data with 85 users,21,105,False,50.09,True,81.95,85,4316.8,97.59,ap-southeast-1,S3,medium,6,7.2
+workload_236,Batch Processing,Batch analytics workload requiring 24 cores for compute-intensive operations,24,108,False,38.08,False,9.19,994,2633.59,96.23,us-west-2,S3,small,4,2.0
+workload_237,Batch Processing,Nightly ETL jobs processing 74.71288404196869TB of data from multiple sources,14,63,False,74.71,True,14.19,364,4777.66,95.09,eu-west-1,S3,small,4,2.0
+workload_238,ETL Pipeline,ETL Pipeline workload processing 89.8132518401037TB of data with 793 users,14,95,False,89.81,False,16.54,793,3273.81,96.9,us-east-1,NVMe,small,2,1.0
+workload_239,Data Mining,Data Mining workload processing 16.716527613539903TB of data with 964 users,16,101,False,16.72,False,5.67,964,1284.63,96.42,multi-region,EFS,small,4,2.0
+workload_240,Feature Engineering,Feature Engineering workload processing 31.199639145684767TB of data with 420 users,18,43,False,31.2,False,13.94,420,3588.46,97.0,us-west-2,S3,small,2,1.0
+workload_241,Time Series Analysis,Time Series Analysis workload processing 18.196820018514565TB of data with 351 users,7,105,False,18.2,False,3.93,351,4297.22,98.99,eu-west-1,NVMe,small,4,2.0
+workload_242,Time Series Analysis,Time Series Analysis workload processing 56.77449074092747TB of data with 298 users,10,78,False,56.77,False,3.57,298,4588.84,97.12,ap-southeast-1,NVMe,small,3,1.5
+workload_243,Batch Processing,Batch analytics workload requiring 10 cores for compute-intensive operations,10,69,False,4.44,True,14.21,362,562.41,95.01,ap-southeast-1,HDD,small,3,1.5
+workload_244,Stream Processing,Stream Processing workload processing 22.885169217698355TB of data with 521 users,61,52,False,22.89,True,91.32,521,3233.38,95.87,us-east-1,NVMe,large,13,32.5
+workload_245,Data Mining,Data Mining workload processing 55.708042087878056TB of data with 859 users,13,87,False,55.71,False,19.48,859,3902.85,96.37,ap-southeast-1,S3,small,4,2.0
+workload_246,Feature Engineering,Feature Engineering workload processing 80.97204457926733TB of data with 915 users,7,75,False,80.97,True,17.11,915,3119.67,97.25,ap-southeast-1,SSD,small,3,1.5
+workload_247,Real-time Processing,IoT data processing pipeline with high throughput and low latency requirements,12,206,False,86.94,True,42.64,673,1084.48,95.48,multi-region,NVMe,medium,7,8.4
+workload_248,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,30,482,False,54.72,True,64.64,650,1285.16,98.15,ap-southeast-1,SSD,medium,3,3.6
+workload_249,Data Mining,Data Mining workload processing 59.7449869978796TB of data with 658 users,28,17,False,59.74,True,7.59,658,2022.19,97.14,ap-southeast-1,HDD,small,4,2.0
+workload_250,Machine Learning Training,"Distributed ML model training requiring 56 cores, 304GB RAM",56,304,False,34.17,False,11.42,302,521.44,98.61,multi-region,S3,medium,4,4.8
+workload_251,Feature Engineering,Feature Engineering workload processing 8.657259134683411TB of data with 353 users,10,124,False,8.66,True,2.91,353,2979.16,97.0,eu-west-1,EFS,small,2,1.0
+workload_252,Stream Processing,Stream Processing workload processing 44.29675265441889TB of data with 828 users,13,200,False,44.3,True,71.29,828,339.0,98.99,eu-west-1,S3,medium,5,6.0
+workload_253,Time Series Analysis,Time Series Analysis workload processing 65.1226491678147TB of data with 812 users,24,23,False,65.12,True,22.12,812,1622.34,96.66,multi-region,SSD,small,3,1.5
+workload_254,Batch Processing,Nightly ETL jobs processing 36.3581327574146TB of data from multiple sources,5,102,False,36.36,False,10.08,803,3653.52,97.32,us-east-1,S3,small,3,1.5
+workload_255,Machine Learning Training,Training deep neural networks on 17.6127639415302TB of training data with 287 data scientists,59,505,True,17.61,False,96.19,287,3774.43,95.85,eu-west-1,SSD,xlarge,17,85.0
+workload_256,Data Analytics,Performing statistical analysis and reporting on large datasets requiring 221 cores and 797GB RAM,221,797,False,75.64,True,28.01,657,1504.96,99.9,us-east-1,NVMe,large,7,17.5
+workload_257,ETL Pipeline,ETL Pipeline workload processing 39.991659989349884TB of data with 104 users,19,45,False,39.99,False,6.63,104,101.11,98.68,ap-southeast-1,HDD,small,2,1.0
+workload_258,Batch Processing,Batch analytics workload requiring 28 cores for compute-intensive operations,28,45,False,62.4,False,13.5,978,3939.72,99.31,us-west-2,HDD,small,2,1.0
+workload_259,Real-time Processing,Processing streaming data from 654 concurrent sources with sub-100ms latency requirements,23,235,False,70.9,True,83.65,654,589.13,96.13,multi-region,S3,medium,7,8.4
+workload_260,Deep Learning,Deep Learning workload processing 93.70208652080318TB of data with 969 users,81,424,True,93.7,False,17.89,969,2549.11,99.12,multi-region,HDD,large,11,27.5
+workload_261,Batch Processing,Batch analytics workload requiring 29 cores for compute-intensive operations,29,83,False,16.26,False,21.96,406,2485.32,99.95,eu-west-1,S3,small,2,1.0
+workload_262,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,43,366,False,54.02,True,25.89,429,1903.74,99.38,us-east-1,S3,medium,5,6.0
+workload_263,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,111,134,False,8.18,True,22.19,405,115.45,95.77,multi-region,HDD,medium,5,6.0
+workload_264,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,97,269,False,64.13,False,97.8,537,2876.24,97.39,eu-west-1,S3,large,5,12.5
+workload_265,Data Mining,Data Mining workload processing 60.66466848132265TB of data with 822 users,7,110,False,60.66,False,12.69,822,4146.83,96.58,ap-southeast-1,NVMe,small,4,2.0
+workload_266,Batch Processing,Large-scale data transformation pipeline running 392 parallel jobs,12,21,False,36.82,False,4.51,392,2391.69,97.53,us-east-1,HDD,small,4,2.0
+workload_267,Stream Processing,Stream Processing workload processing 96.58563389920668TB of data with 608 users,11,204,False,96.59,True,66.21,608,2971.86,99.67,multi-region,NVMe,medium,6,7.2
+workload_268,Deep Learning,Deep Learning workload processing 0.1332173614368917TB of data with 43 users,33,379,False,0.13,False,86.63,43,3098.32,98.24,us-east-1,S3,large,7,17.5
+workload_269,Data Warehousing,Enterprise data warehouse storing 46.03406233455509TB with 642 concurrent query users,62,644,False,46.03,True,41.23,642,2423.52,98.76,multi-region,SSD,medium,3,3.6
+workload_270,Deep Learning,Deep Learning workload processing 7.555518452274463TB of data with 156 users,102,146,False,7.56,False,25.36,156,1517.07,95.5,us-west-2,EFS,medium,6,7.2
+workload_271,ETL Pipeline,ETL Pipeline workload processing 22.9665710241767TB of data with 101 users,4,19,False,22.97,True,16.2,101,3076.48,96.53,us-west-2,EFS,small,3,1.5
+workload_272,Data Warehousing,Multi-dimensional analysis on large fact tables with star schema design,209,190,False,40.54,True,41.68,768,973.92,96.84,us-west-2,SSD,large,10,25.0
+workload_273,Feature Engineering,Feature Engineering workload processing 76.95355887476985TB of data with 510 users,17,86,False,76.95,True,18.61,510,1243.65,95.67,eu-west-1,S3,small,2,1.0
+workload_274,Data Analytics,Business intelligence workload processing 13.797259602327006TB of transactional data for real-time dashboards,110,788,False,13.8,True,40.41,423,3095.12,96.61,eu-west-1,HDD,large,14,35.0
+workload_275,Machine Learning Training,AutoML pipeline processing large feature sets with high memory requirements,124,276,False,6.56,False,27.9,672,2439.78,95.55,ap-southeast-1,HDD,large,9,22.5
+workload_276,Batch Processing,Batch analytics workload requiring 23 cores for compute-intensive operations,23,70,False,12.81,True,4.58,546,1624.05,98.68,eu-west-1,EFS,small,4,2.0
+workload_277,Time Series Analysis,Time Series Analysis workload processing 45.99873216375807TB of data with 21 users,12,108,False,46.0,False,10.47,21,4781.15,95.66,us-west-2,NVMe,small,2,1.0
+workload_278,Graph Analytics,Graph Analytics workload processing 80.90745781746918TB of data with 560 users,27,24,False,80.91,False,23.63,560,1274.1,99.2,eu-west-1,SSD,small,3,1.5
+workload_279,Graph Analytics,Graph Analytics workload processing 63.75642753314722TB of data with 802 users,31,119,False,63.76,True,12.08,802,1932.36,97.25,us-west-2,HDD,small,2,1.0
+workload_280,Feature Engineering,Feature Engineering workload processing 51.88896139232589TB of data with 467 users,18,32,False,51.89,False,2.6,467,529.36,99.93,multi-region,NVMe,small,4,2.0
+workload_281,Machine Learning Training,"Distributed ML model training requiring 116 cores, 71GB RAM",116,71,False,8.57,True,13.75,43,3295.52,99.0,multi-region,SSD,medium,5,6.0
+workload_282,Graph Analytics,Graph Analytics workload processing 73.7770851099548TB of data with 826 users,27,32,False,73.78,False,23.96,826,2310.27,99.95,eu-west-1,EFS,medium,6,7.2
+workload_283,Stream Processing,Stream Processing workload processing 18.60103722996005TB of data with 491 users,22,242,False,18.6,True,74.6,491,2061.24,97.74,eu-west-1,SSD,medium,4,4.8
+workload_284,Feature Engineering,Feature Engineering workload processing 96.78921748101855TB of data with 223 users,9,126,False,96.79,True,2.97,223,3912.64,96.14,ap-southeast-1,SSD,small,2,1.0
+workload_285,Deep Learning,Deep Learning workload processing 25.615807120053432TB of data with 836 users,81,497,False,25.62,True,10.94,836,3873.39,98.21,us-east-1,S3,medium,4,4.8
+workload_286,Data Mining,Data Mining workload processing 32.289328794118376TB of data with 676 users,26,77,False,32.29,False,22.5,676,1464.82,99.89,ap-southeast-1,SSD,small,3,1.5
+workload_287,Real-time Processing,Processing streaming data from 288 concurrent sources with sub-100ms latency requirements,20,212,False,52.12,True,94.02,288,3282.74,95.64,us-east-1,NVMe,large,5,12.5
+workload_288,Graph Analytics,Graph Analytics workload processing 37.27948568136758TB of data with 827 users,11,33,False,37.28,True,6.39,827,2750.91,96.94,us-east-1,HDD,small,3,1.5
+workload_289,Time Series Analysis,Time Series Analysis workload processing 67.6306293310769TB of data with 435 users,25,45,False,67.63,True,23.28,435,4434.74,98.22,ap-southeast-1,S3,small,4,2.0
+workload_290,ETL Pipeline,ETL Pipeline workload processing 87.93893913378405TB of data with 780 users,29,47,False,87.94,False,8.61,780,4594.71,96.26,multi-region,HDD,small,2,1.0
+workload_291,Stream Processing,Stream Processing workload processing 72.87621864844516TB of data with 647 users,28,157,False,72.88,True,88.15,647,903.79,95.27,us-east-1,S3,large,10,25.0
+workload_292,Deep Learning,Deep Learning workload processing 54.001666427500965TB of data with 781 users,37,298,False,54.0,False,34.24,781,824.91,95.66,us-east-1,NVMe,medium,6,7.2
+workload_293,Batch Processing,Large-scale data transformation pipeline running 88 parallel jobs,30,65,False,50.63,False,6.12,88,1712.58,97.06,us-west-2,NVMe,small,2,1.0
+workload_294,Machine Learning Training,Training deep neural networks on 29.82509028675018TB of training data with 19 data scientists,76,416,False,29.83,False,55.75,19,758.7,95.47,ap-southeast-1,NVMe,large,13,32.5
+workload_295,Batch Processing,Large-scale data transformation pipeline running 584 parallel jobs,8,126,False,55.85,True,4.86,584,1234.15,98.63,us-east-1,HDD,small,2,1.0
+workload_296,Feature Engineering,Feature Engineering workload processing 87.99366694559968TB of data with 866 users,7,119,False,87.99,True,5.65,866,1020.97,97.77,us-east-1,NVMe,small,3,1.5
+workload_297,Batch Processing,Batch analytics workload requiring 10 cores for compute-intensive operations,10,106,False,35.6,True,5.51,13,2693.94,97.62,us-west-2,SSD,small,3,1.5
+workload_298,Time Series Analysis,Time Series Analysis workload processing 74.59880489485009TB of data with 14 users,29,73,False,74.6,True,1.85,14,3747.98,98.79,multi-region,HDD,small,4,2.0
+workload_299,Batch Processing,Nightly ETL jobs processing 87.67741110663724TB of data from multiple sources,19,110,False,87.68,False,8.33,101,624.45,96.92,multi-region,SSD,small,3,1.5
+workload_300,Data Warehousing,Enterprise data warehouse storing 66.33789624959918TB with 822 concurrent query users,55,354,False,66.34,True,15.51,822,3478.4,95.02,us-west-2,EFS,medium,6,7.2
